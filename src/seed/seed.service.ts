@@ -8,7 +8,7 @@ export class SeedService {
 
   public async runSeed() {
     await this.insertNewProducts();
-    return 'RUN SEDDD';
+    return 'SEED EXECUTED.';
   }
 
   private async insertNewProducts() {
